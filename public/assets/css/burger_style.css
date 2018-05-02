@@ -1,0 +1,41 @@
+body {
+    background-color: #E4DAC2;
+}
+h1 {
+    text-align: center;
+    font-family: 'Arvo', serif;
+    font-weight: bolder;
+    color: #424242;
+}
+#burgerPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 200px;
+}
+.create-burger {
+    text-align: center;
+}
+.panel {
+    height: 250px;
+    overflow: auto;
+}
+.panel > .panel-heading {
+    position: sticky;
+    top: 0;
+    background-image: none;
+    background-color: #424242;
+    color: white;
+    letter-spacing: .05em;
+}
+hr {
+    margin: 5px;
+}
+#right {
+    float: right;
+}
+#devoured-item {
+    color: #aaa;
+}
